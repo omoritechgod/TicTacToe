@@ -1,0 +1,1 @@
+npm install --global eas-cli && eas init --id d1ad6364-d695-48d0-a9ee-45712806594c
