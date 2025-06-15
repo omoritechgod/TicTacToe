@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Tic-tac-toe-app",
-    "slug": "Tic-tac-toe-app",
+    "slug": "tictactoe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,19 +11,17 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.nexatrux.tictactoe"  // ✅ Add this line
+      "bundleIdentifier": "com.nexatrux.tictactoe"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.nexatrux.tictactoe"  // ✅ Optional but recommended
+      "package": "com.nexatrux.tictactoe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
