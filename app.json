@@ -15,13 +15,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nexatrux.tictactoe"  // ✅ Add this line
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nexatrux.tictactoe"  // ✅ Optional but recommended
     },
     "web": {
       "favicon": "./assets/favicon.png"
